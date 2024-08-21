@@ -50,7 +50,7 @@ except ValueError:
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "𝙎𝙪𝙣𝙣𝙖 {first} 𝙔𝙚 3 𝘾𝙝𝙖𝙣𝙣𝙚𝙡𝙨 𝙟𝙤𝙞𝙣 𝙠𝙖𝙧𝙡𝙚 𝙛𝙞𝙧 𝙝𝙚 𝙩𝙪𝙟𝙞 𝙢𝙖𝙖𝙡 𝙢𝙞𝙡𝙚𝙜𝙖..\n\n𝘼𝙪𝙧 𝙅𝙤𝙞𝙣 𝙠𝙖𝙧 𝙣𝙚 𝙗𝙖𝙙𝙖𝙢𝙚 𝙞𝙨𝙥𝙚 𝘾𝙡𝙞𝙘𝙠 𝙠𝙖𝙧 “𝐍𝐨𝐰 𝐂𝐥𝐢𝐜𝐤 𝐡𝐞𝐫𝐞” 𝘽𝙪𝙩𝙩𝙤𝙣....!")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>𝙠𝙮𝙪𝙪 𝙗𝙤𝙩 𝙠𝙚 𝙜𝙖𝙣𝙙 𝙢𝙖𝙧 𝙧𝙖𝙝 𝙝𝙖𝙞</b>")
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>𝙠𝙮𝙪𝙪 𝙗𝙤𝙩 𝙠𝙚 𝙜𝙖𝙣𝙙 𝙢𝙖𝙧 𝙧𝙖𝙝 𝙝𝙤</b>")
 
 #set True if you want to prevent users from forwarding files from bot
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
